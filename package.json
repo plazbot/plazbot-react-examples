@@ -1,0 +1,39 @@
+{
+  "name": "plazbot-react-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React examples for the Plazbot SDK. Chat, Widget, Hooks, Theming, Cards and more.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plazbot/plazbot-react-examples.git"
+  },
+  "keywords": [
+    "plazbot",
+    "react",
+    "sdk",
+    "examples",
+    "ai-agents",
+    "chatbot"
+  ],
+  "author": "Kristian Garcia",
+  "license": "MIT",
+  "dependencies": {
+    "plazbot": "^2.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "^5.5.0",
+    "vite": "^6.3.0"
+  }
+}
