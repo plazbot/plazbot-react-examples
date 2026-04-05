@@ -25,8 +25,8 @@ export default function ChatBasic() {
       <PlazbotProvider sdk={sdk} agentId={AGENT_ID}>
         <Chat
           showHeader
-          showPoweredBy
-          placeholder="Escribe tu mensaje..."
+          showPoweredBy={false}
+          placeholder="Escribe tu mensaje ahora..."
           allowAttachments
           suggestedQuestions={[
             'Que servicios ofrecen?',
